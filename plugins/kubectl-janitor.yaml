@@ -3,46 +3,46 @@ kind: Plugin
 metadata:
   name: kubectl-janitor
 spec:
-  version: v0.2.6
+  version: v0.2.7
   platforms:
     - bin: kubectl-janitor.exe
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_windows_arm64.tar.gz
-      sha256: 424190ab78d5687e1cffd7579ff373537fe65a620c7ae5975778272828fcbd10
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_windows_arm64.tar.gz
+      sha256: 9ad51e1625a5bcfe5ddc9022926875de6cd58fe35dbae6ed37e927ca38818f63
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-janitor.exe
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_windows_amd64.tar.gz
-      sha256: 945d3da7238f4dd90e10d5a5fe461f1cfde98eff2ccbe149237ff27c8e7efd0b
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_windows_amd64.tar.gz
+      sha256: 999e838a247bc5d7cb868b8d8493c699287b4f590c7903209ab68254fc627ed5
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-janitor
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_linux_arm64.tar.gz
-      sha256: b97c39012b33359ea8593bc6b98a2ed95f8234f7112c3f05c408bf17db3986b0
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_linux_arm64.tar.gz
+      sha256: a5e2a46a5fa46c6434b3d3d6b96f07319f5814b4caa40b05a903364b7ec342d0
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-janitor
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_linux_amd64.tar.gz
-      sha256: acc500a8ebdef736d7d5d731c904beb5a17e78e9b5f99d91c6391ddfb69b6590
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_linux_amd64.tar.gz
+      sha256: 5cafe88b1e584980ad796f42a26024397e236c5c6f30b57c056d3e443b9759b5
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-janitor
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_darwin_arm64.tar.gz
-      sha256: 5ca018e1152e452ca5ec39d1305b8d639aadbccbd2cb6177e202e8be8a840900
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_darwin_arm64.tar.gz
+      sha256: 6b363f91527c303e92321eb0ef28e9b3089fa4166651f1d85a6936e6f4857504
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-janitor
-      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.6/kubectl-janitor_v0.2.6_darwin_amd64.tar.gz
-      sha256: 3c2c68f50582528d4a037451a94a38d59b61da5da11d67d55beeaa20db49ae02
+      uri: https://github.com/thiagoalmeidasa/kubectl-janitor/releases/download/v0.2.7/kubectl-janitor_v0.2.7_darwin_amd64.tar.gz
+      sha256: b103b839853c8421fb88dd99005c22e149d98c85254c4362fff074e88b20f69d
       selector:
         matchLabels:
           os: darwin
